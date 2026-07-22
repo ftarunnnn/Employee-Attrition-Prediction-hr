@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables
+.env
+.env.local
+
+# Data and models (large binaries)
+data/*
+!data/.gitkeep
+saved_models/*
+!saved_models/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
